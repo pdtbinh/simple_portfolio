@@ -1,0 +1,30 @@
+.Title {
+    --outside-padding: 7.5vw;
+    --inside-padding: 2.5vw;
+    --bg-color: rgb(200, 200, 200);
+    --text-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.SmallTitle {
+    padding-left: var(--outside-padding);
+    padding-right: var(--inside-padding);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    width: 40%;
+    height: fit-content;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.LargeTitle {
+    padding-right: var(--outside-padding);
+    padding-left: var(--inside-padding);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    width: 60%;
+    height: fit-content;
+    box-sizing: border-box;
+    text-align: left;
+}

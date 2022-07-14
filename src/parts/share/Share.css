@@ -1,0 +1,36 @@
+.Share {
+    --outside-padding: 5vw;
+    --inside-padding: 2vw;
+    --dark-color: black;
+    --bright-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.SmallShare {
+    padding-left: var(--outside-padding);
+    padding-right: var(--inside-padding);
+    background-color: var(--bright-color);
+    color: var(--dark-color);
+    width: 40%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.LargeShare {
+    padding-right: var(--outside-padding);
+    padding-left: var(--inside-padding);
+    background-color: var(--dark-color);
+    color: var(--bright-color);
+    width: 60%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.SmallShare h1, .LargeShare h1 {
+    font-size: 2.5rem;
+}
+
+.SmallShare p, .LargeShare p {
+    font-size: 1rem;
+}

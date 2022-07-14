@@ -1,0 +1,16 @@
+.ExpCompany {
+    font-weight: 900;
+    font-size: 1.5rem !important;
+}
+
+.ExpPlace, .ExpTime {
+    opacity: 0.65;
+}
+
+.ExpLeftLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    overflow: scroll;
+    width: 2000px;
+}

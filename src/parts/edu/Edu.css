@@ -1,0 +1,12 @@
+.EduRight > p:first-child {
+    font-weight: 900;
+}
+
+.EduCompany {
+    font-weight: 900;
+    font-size: 1.5rem !important;
+}
+
+.EduPlace, .EduTime {
+    opacity: 0.65;
+}

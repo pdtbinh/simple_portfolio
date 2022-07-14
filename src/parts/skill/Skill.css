@@ -1,0 +1,69 @@
+.Skill {
+    --img-size: 50px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15px;
+}
+
+.Skill p {
+    opacity: 0.65;
+    margin: 5px 0;
+}
+
+.SkillPic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-size: contain;
+    width: var(--img-size);
+    height: var(--img-size);
+}
+
+.AWSLogo {
+    background-image: url('../pics/awspic.png');
+}
+
+.AzureLogo {
+    background-image: url('../pics/azurepic.png');
+}
+
+.CSharpLogo {
+    background-image: url('../pics/csharppic.png');
+}
+
+.DatabricksLogo {
+    background-image: url('../pics/databrickspic.png');
+}
+
+.MLflowLogo {
+    background-image: url('../pics/mlflowpic.png');
+}
+
+.UnityLogo {
+    background-image: url('../pics/unitypic.png');
+}
+
+.PtsLogo {
+    background-image: url('../pics/ptspic.png');
+}
+
+.PythonLogo {
+    background-image: url('../pics/pythonpic.png');
+}
+
+
+.PyTestLogo {
+    background-image: url('../pics/pytestpic.png');
+}
+
+.SQLLogo {
+    background-image: url('../pics/sqlpic.png');
+}
+
+.sklearnLogo {
+    background-image: url('../pics/sklearnpic.png');
+}
