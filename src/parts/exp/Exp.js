@@ -100,7 +100,7 @@ function ExpLeft(props) {
             <p className='ExpTime'>{props.time}</p>
             <p>Technology stack</p>
             <Grid container columns={{xs: 2, sm: 3, md: 4, lg: 5}} className='ExpLeftLogos'>
-                {props.logos.map(logo => <Skill skillLogo={logo.source} skillName={logo.name}/>)}
+                {props.logos.map(logo => <Skill key={logo.name} skillLogo={logo.source} skillName={logo.name}/>)}
             </Grid>
         </div>
     )
@@ -111,7 +111,7 @@ function ExpRight(props) {
         <div>
             <p className='ExpCompany'>{props.position}</p>
             <ul>
-                {props.tasks.map(task => <li>{task}</li>)}
+                {props.tasks.map(task => <li key={task}>{task}</li>)}
             </ul>
         </div>
     )

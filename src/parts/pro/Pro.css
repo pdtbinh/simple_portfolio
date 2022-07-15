@@ -1,14 +1,14 @@
-.ExpCompany {
+.ProName {
     font-weight: 900;
     font-size: 1.5rem !important;
 }
 
-.ExpPlace, .ExpTime {
-    opacity: 0.65;
-}
-
-.ExpLeftLogos {
+.ProLeftLogos {
     display: flex;
     flex-direction: row;
     justify-content: right;
+}
+
+.Repo {
+    display: block;
 }
