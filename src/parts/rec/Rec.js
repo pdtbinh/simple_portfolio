@@ -87,6 +87,5 @@ function RecRight(props) {
             <p className='RecName'>{props.role}</p>
             {props.recommendation}
         </div>
-        
     )
 }

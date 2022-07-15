@@ -1,4 +1,5 @@
 import './App.css';
+import Cer from './parts/cer/Cer';
 import Edu from './parts/edu/Edu';
 import Exp from './parts/exp/Exp';
 import Intro from './parts/intro/Intro';
@@ -11,6 +12,7 @@ export default function App() {
       <Edu/>
       <Exp/>
       <Rec/>
+      <Cer/>
     </div>
   );
 }
