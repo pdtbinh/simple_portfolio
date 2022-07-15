@@ -31,18 +31,35 @@ function ConIntroRight() {
 
 function ConLeft() {
     return (
-        <p>Please  feel free to checkout my works and reach out to me!</p>
+        <>
+            <p>Thank you for viewing my profile!</p>
+            <p> Please feel free to contact me should you have any question.</p>
+        </>
     )
 }
 
 function ConRight() {
     return (
-        <Grid container columns={{xs: 2, sm: 3, md: 4, lg: 5}}>
-            <Grid item xs={1}>
-                <a className='Contact' rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/binh-pham-aab6a719a/'>
-                    LinkedIn
+        <div className='ConRight'>
+            <p>
+                LinkedIn: <a className='Contact' href='https://www.linkedin.com/in/binh-pham-aab6a719a/' target='_blank' rel='noreferrer'>
+                    Binh Pham
                 </a>
-            </Grid>
-        </Grid>
+            </p>
+
+            <p>
+                GitHub: <a className='Contact' href='https://github.com/pdtbinh' target='_blank' rel='noreferrer'>
+                    pdtbinh
+                </a>
+            </p>
+
+            <p>
+                Email: binh.pham@aalto.fi 
+            </p>
+
+            <p>
+                Phone: +358 41 4805030
+            </p>
+        </div>
     )
 }
