@@ -1,7 +1,6 @@
 import './Con.css';
 import Share from '../share/Share';
 import Title from '../share/Title';
-import Grid from '@mui/material/Grid';
 
 export default function Con() {
   return (
