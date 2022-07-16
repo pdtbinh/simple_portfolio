@@ -13,7 +13,15 @@ export default function Pro() {
     ]
 
     const pro1_stack = [
-        
+        {name: 'JavaScript', source: 'JavaScriptLogo'},
+        {name: 'HTML', source: 'HTMLLogo'},
+        {name: 'CSS', source: 'CSSLogo'},
+        {name: 'React', source: 'ReactLogo'},
+        {name: 'Node.js', source: 'NodeJSLogo'},
+        {name: 'Express.js', source: 'ExpressJSLogo'},
+        {name: 'MongoDB', source: 'MongoDBLogo'},
+        {name: 'Mongoose', source: 'MongooseJSLogo'},
+        {name: 'Passport.js', source: 'PassportJSLogo'},
     ]
 
     const pro1_repos = [
@@ -29,7 +37,10 @@ export default function Pro() {
     ]
 
     const pro2_stack = [
-        {name: 'Python', source: 'PythonLogo'}
+        {name: 'Python', source: 'PythonLogo'},
+        {name: 'TensorFlow', source: 'TensorFlowLogo'},
+        {name: 'Keras', source: 'KerasLogo'},
+        {name: 'HuggingFace', source: 'HuggingFaceLogo'}
     ]
 
     const pro2_repos = [

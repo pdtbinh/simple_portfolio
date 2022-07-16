@@ -12,6 +12,7 @@
 .Skill p {
     opacity: 0.65;
     margin: 5px 0;
+    font-size: 0.9rem;
 }
 
 .SkillPic {
@@ -35,16 +36,56 @@
     background-image: url('../pics/csharppic.png');
 }
 
+.CSSLogo {
+    background-image: url('../pics/csspic.png');
+}
+
 .DatabricksLogo {
     background-image: url('../pics/databrickspic.png');
+}
+
+.ExpressJSLogo {
+    background-image: url('../pics/expressjspic.png');
+}
+
+.HuggingFaceLogo {
+    background-image: url('../pics/huggingfacepic.png');
+}
+
+.HTMLLogo {
+    background-image: url('../pics/htmlpic.png');
+}
+
+.KerasLogo {
+    background-image: url('../pics/keraspic.png');
+}
+
+.JavaScriptLogo {
+    background-image: url('../pics/javascriptpic.png');
 }
 
 .MLflowLogo {
     background-image: url('../pics/mlflowpic.png');
 }
 
+.MongoDBLogo {
+    background-image: url('../pics/mongodbpic.png');
+}
+
+.MongooseJSLogo {
+    background-image: url('../pics/mongoosejspic.png');
+}
+
+.NodeJSLogo {
+    background-image: url('../pics/nodejspic.png');
+}
+
 .UnityLogo {
     background-image: url('../pics/unitypic.png');
+}
+
+.PassportJSLogo {
+    background-image: url('../pics/passportjspic.png');
 }
 
 .PtsLogo {
@@ -55,9 +96,16 @@
     background-image: url('../pics/pythonpic.png');
 }
 
-
 .PyTestLogo {
     background-image: url('../pics/pytestpic.png');
+}
+
+.ReactLogo {
+    background-image: url('../pics/reactpic.png');
+}
+
+.TensorFlowLogo {
+    background-image: url('../pics/tensorflowpic.png');
 }
 
 .SQLLogo {
